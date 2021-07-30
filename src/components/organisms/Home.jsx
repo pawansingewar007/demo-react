@@ -18,14 +18,15 @@ const HomeComponent = () => {
       >
         DECREMENT
       </button>
-
+      <br />
+      <br />
       {React.createElement(
         "button",
         {
           id: "login-btn",
           onClick: () => setShowClassComponent(false),
         },
-        "changeState"
+        "Remove ClassComponent"
       )}
       <br />
       <br />
